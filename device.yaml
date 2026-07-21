@@ -1,0 +1,37 @@
+device:
+  device_type: cisco_ios
+  host: 10.10.20.48
+  port: 22
+
+loopbacks:
+  - id: 501
+    ipv4: 198.18.5.1/32
+    description: LAB5_AUTOMATION_01
+  - id: 502
+    ipv4: 198.18.5.2/32
+    description: LAB5_AUTOMATION_02
+  - id: 503
+    ipv4: 198.18.5.3/32
+    description: LAB5_AUTOMATION_03
+  - id: 504
+    ipv4: 198.18.5.4/32
+    description: LAB5_AUTOMATION_04
+  - id: 505
+    ipv4: 198.18.5.5/32
+    description: LAB5_AUTOMATION_05
+  - id: 506
+    ipv4: 198.18.5.6/32
+    description: LAB5_AUTOMATION_06
+  - id: 507
+    ipv4: 198.18.5.7/32
+    description: LAB5_AUTOMATION_07
+  - id: 508
+    ipv4: 198.18.5.8/32
+    description: LAB5_AUTOMATION_08
+  - id: 509
+    ipv4: 198.18.5.9/32
+    description: LAB5_AUTOMATION_09
+  - id: 510
+    ipv4: 198.18.5.10/32
+    description: LAB5_AUTOMATION_10
+
